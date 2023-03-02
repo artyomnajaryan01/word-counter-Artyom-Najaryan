@@ -11,7 +11,7 @@ function counter(string) {
     if (word.toUpperCase() !== word.toLowerCase()) {
       wordCount += 1;
       for (let letter of word) {
-        if (letter.toUpperCase() !== word.toLowerCase()) {
+        if (letter.toUpperCase() !== letter.toLowerCase()) {
           letterCount += 1;
         }
       }
